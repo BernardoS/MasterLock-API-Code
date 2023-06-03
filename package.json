@@ -1,0 +1,31 @@
+{
+  "name": "masterlockapi",
+  "version": "1.0.0",
+  "description": "API do projeto MasterLock",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "keywords": [
+    "api",
+    "firebase-realtime-database"
+  ],
+  "author": "Bernardo Souza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.19.1",
+    "firebase-admin": "^11.5.0",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.21",
+    "swagger-autogen": "^2.23.1",
+    "swagger-ui-express": "^4.6.2",
+    "uuid": "^9.0.0"
+  }
+}
